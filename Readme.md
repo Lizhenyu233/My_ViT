@@ -3,10 +3,10 @@
 ## 项目简介
 学习ViT模型后，使用pytorch练习手搓ViT代码，实现图像分类任务，使用5种花的数据集进行训练以及测试，并附上测试结果
 ## 环境配置
-- tensorboard
-- tqdm
-- torch
-- matplotlib
+- `tensorboard`
+- `tqdm`
+- `torch`
+- `matplotlib`
 ## 项目结构
 ```
 /My_ViT/
@@ -37,8 +37,8 @@
 ## 使用说明
 - 安装相应环境
 - 下载数据集和预训练权重放到相应文件夹
-- 在train.py最下面设置训练参数后即可运行，生成数据集分布datasets_class_distribution.png，索引种类映射class_indices.json，模型保存在train文件夹的final_model.pth
-- 在test.py最下面设置参数后即可运行，测试结果在test_result.png里
+- 在`train.py`最下面设置训练参数后即可运行，生成数据集分布`datasets_class_distribution.png`和索引种类映射`class_indices.json`，模型保存在`train`文件夹的`final_model.pth`
+- 在`test.py`最下面设置参数后即可运行，测试结果在`test_result.png`里
 
 ---
 ## 实验
@@ -65,6 +65,6 @@
 - dataset.py：自定义数据集
 
 ---
-参考
-[博客讲解](https://blog.csdn.net/qq_37541097/article/details/118242600)
-[参考代码](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/vision_transformer)
+## 参考
+- [博客讲解](https://blog.csdn.net/qq_37541097/article/details/118242600)
+- [参考代码](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/vision_transformer)
